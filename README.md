@@ -70,6 +70,12 @@ filesystem: cmd /c npx -y @modelcontextprotocol/server-filesystem D:\practica1-m
 playwright: cmd /c npx -y @playwright/mcp@latest - √ Connected
 ```
 
+Captura de `claude mcp list` después de agregar el servidor de la actividad D:
+
+![Servidores conectados](evidencias/03_mcp_conectados.png)
+
+`memory` aparece como *Pending approval* porque no lo aprobé en una sesión interactiva. En la actividad D lo cargué con `--mcp-config .mcp.json`, y el registro de esa sesión lo reporta conectado: `"memory","status":"connected"`.
+
 **Herramientas que expone cada servidor** (según el registro de inicio de cada sesión)
 
 | Servidor | Nº | Herramientas |
