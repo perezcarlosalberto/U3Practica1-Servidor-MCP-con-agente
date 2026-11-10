@@ -31,8 +31,8 @@ Arquitectura: Claude Code es el **host**. Adentro tiene un **cliente MCP** por c
 
 1. Clona el repositorio y entra a la carpeta:
    ```powershell
-   git clone https://github.com/TU_USUARIO/practica1-mcp.git
-   cd practica1-mcp
+   git clone https://github.com/perezcarlosalberto/U3Practica1-Servidor-MCP-con-agente.git
+   cd U3Practica1-Servidor-MCP-con-agente
    ```
 2. **Cambia la ruta en `.mcp.json`** por la ruta absoluta de tu carpeta, en dos lugares: el último argumento de `filesystem` y la variable `MEMORY_FILE_PATH` de `memory`. En JSON las barras invertidas van dobles, por ejemplo `C:\\Users\\TU_USUARIO\\practica1-mcp`.
    Otra opción es borrar `.mcp.json` y registrar los servidores con los comandos de la sección 3.
