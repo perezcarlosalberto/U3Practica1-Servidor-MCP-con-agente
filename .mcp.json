@@ -22,6 +22,19 @@
         "@playwright/mcp@latest"
       ],
       "env": {}
+    },
+    "memory": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "D:\\practica1-mcp\\salida\\memoria.jsonl"
+      }
     }
   }
 }

@@ -1,0 +1,18 @@
+{"type":"entity","name":"Carla Mendez","entityType":"alumno","observations":["Matricula: A003","Promedio final: 9.50"]}
+{"type":"entity","name":"Gabriela Luna","entityType":"alumno","observations":["Matricula: A007","Promedio final: 9.50"]}
+{"type":"entity","name":"Ana Torres","entityType":"alumno","observations":["Matricula: A001","Promedio final: 9.00"]}
+{"type":"entity","name":"Elena Castro","entityType":"alumno","observations":["Matricula: A005","Promedio final: 8.17"]}
+{"type":"entity","name":"Fabian Ortiz","entityType":"alumno","observations":["Matricula: A006","Promedio final: 6.83"]}
+{"type":"entity","name":"Bruno Salas","entityType":"alumno","observations":["Matricula: A002","Promedio final: 6.17"]}
+{"type":"entity","name":"Diego Ruiz","entityType":"alumno","observations":["Matricula: A004","Promedio final: 5.50"]}
+{"type":"entity","name":"Hector Vega","entityType":"alumno","observations":["Matricula: A008","Promedio final: 5.33"]}
+{"type":"entity","name":"Aprobado","entityType":"estado","observations":["Promedio >= 6.0"]}
+{"type":"entity","name":"No aprobado","entityType":"estado","observations":["Promedio < 6.0"]}
+{"type":"relation","from":"Carla Mendez","to":"Aprobado","relationType":"tiene_estado"}
+{"type":"relation","from":"Gabriela Luna","to":"Aprobado","relationType":"tiene_estado"}
+{"type":"relation","from":"Ana Torres","to":"Aprobado","relationType":"tiene_estado"}
+{"type":"relation","from":"Elena Castro","to":"Aprobado","relationType":"tiene_estado"}
+{"type":"relation","from":"Fabian Ortiz","to":"Aprobado","relationType":"tiene_estado"}
+{"type":"relation","from":"Bruno Salas","to":"Aprobado","relationType":"tiene_estado"}
+{"type":"relation","from":"Diego Ruiz","to":"No aprobado","relationType":"tiene_estado"}
+{"type":"relation","from":"Hector Vega","to":"No aprobado","relationType":"tiene_estado"}
