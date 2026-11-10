@@ -1,0 +1,4 @@
+﻿Checking MCP server health…
+
+filesystem: cmd /c npx -y @modelcontextprotocol/server-filesystem D:\practica1-mcp - √ Connected
+playwright: cmd /c npx -y @playwright/mcp@latest - √ Connected

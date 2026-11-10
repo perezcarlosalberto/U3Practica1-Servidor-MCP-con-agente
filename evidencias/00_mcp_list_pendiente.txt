@@ -1,0 +1,4 @@
+﻿Checking MCP server health…
+
+filesystem: cmd /c npx -y @modelcontextprotocol/server-filesystem D:\practica1-mcp - ⏸ Pending approval (run `claude` to approve)
+playwright: cmd /c npx -y @playwright/mcp@latest - ⏸ Pending approval (run `claude` to approve)

@@ -1,0 +1,12 @@
+Usa unicamente las herramientas MCP de los servidores memory y filesystem.
+1) Lee salida/reporte.md con filesystem.
+2) Con memory, crea una entidad de tipo "alumno" por cada alumno del
+   reporte (nombre = nombre del alumno) con observaciones de su
+   matricula y su promedio final.
+3) Crea dos entidades de tipo "estado": "Aprobado" y "No aprobado", y
+   relaciona a cada alumno con la que le corresponde (relacion "tiene_estado").
+4) Consulta la memoria con search_nodes para responder: que alumnos
+   no aprobaron y cual es su promedio.
+5) Lee el grafo completo con read_graph.
+Responde con un resumen breve: cuantas entidades y relaciones creaste y
+el resultado de la consulta.
